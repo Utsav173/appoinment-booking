@@ -59,7 +59,7 @@ module.exports = {
                 </head>
                 <body>
                   <h1>Appointment Confirmation</h1>
-                  <p>Hi ${appointmentData.name},</p>
+                  <p>Hi ${appointmentData.patientName},</p>
                   <p>Your appointment with the hospital has been scheduled for:</p>
                   <table>
                     <tr>
