@@ -9,8 +9,9 @@ module.exports = {
   attributes: {
     date: { type: "string", columnType: "datetime", required: true },
     patientName: { type: "string", required: true },
-    doctorName: { type: "string", required: true },
-    hospitalName: { type: "string", required: true },
+    hospitalName: { type: "string" },
+    location: { type: "string" },
+    phone: { type: "string", required: true },
     description: { type: "string" },
     status: { type: "string", defaultsTo: "pending" },
     email: { type: "string", required: true, isEmail: true },

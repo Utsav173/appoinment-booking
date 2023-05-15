@@ -67,8 +67,8 @@ module.exports = {
                       <td>${appointmentData.date}</td>
                     </tr>
                     <tr>
-                      <th>Doctor</th>
-                      <td>${appointmentData.doctorName}</td>
+                      <th>Phone</th>
+                      <td>${appointmentData.phone}</td>
                     </tr>
                     <tr>
                       <th>Department</th>
@@ -77,6 +77,10 @@ module.exports = {
                     <tr>
                       <th>hospital Name</th>
                       <td>${appointmentData.hospitalName}</td>
+                    </tr>
+                    <tr>
+                      <th>hospital Location</th>
+                      <td>${appointmentData.location}</td>
                     </tr>
                   </table>
                   <p>Thank you for choosing our hospital.</p>
